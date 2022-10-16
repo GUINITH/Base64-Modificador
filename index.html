@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto MD2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <H1> BEM-VINDOS</H1>
+
+
+    <img src="" alt=""><br></br><br></br>
+
+    <p><strong>Atenção:</strong> Escolha uma das opções Cifra de César ou Base64.</p>
+
+    <p>Digite sua mensagem e click em das opções "Codificar ou Decodificar", aguarde o retorno do que foi escrito e divirta-se!</p>
+
+    <form action="/codificador">
+        <label for="Codificador">Escolha uma opção:</label>
+        <select name="codificador" id="codificador">
+          <option value="Base64">Base64</option>
+          <option value="Cifra de César">Cifra de César</option>
+     
+
+
+          
+
+     <section class="opção">
+        <input type="radio" name="opção" id="codificar" value="codificar" checked>
+      <option value="Codificar">Codificar</option>
+        <input type="radio" name="opção" id="decodificar" value="decodificar">
+        <opition value="decodificar">Decodificar</opition>
+      
+      
+        <form name="formCriptografia">
+          <div class="container">
+            <label for="mensagem">Insira uma mensagem para criptografar:</label>
+            <input name="mensagem" id="mensagem" placeholder="Mensagem" />
+          </div>
+      <button type="submit">
+        Codificar Mensagem
+      </button>
+      <section id="resultado">Resultado:</section>
+    </form>
+
+<script src="scripty.js"></script>
+</body>
+</html>
